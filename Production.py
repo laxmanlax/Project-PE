@@ -446,3 +446,36 @@ class Solution(object):
                     closeb -=1
 
         return openb+closeb
+
+        ----
+class Solution(object):
+    def minAddToMakeValid(self, S):
+        """
+        :type S: str
+        :rtype: int
+        """
+        ans = bal = 0
+
+        for c in S:
+            if c == "(":
+                bal += 1
+            else:
+                bal -= 1
+
+            if bal == -1:
+                ans +=1
+                bal +=1
+
+        return ans + bal
+        ---
+class Solution(object):
+    def minAddToMakeValid(self, S):
+        left = right = 0
+
+        for i in S:
+            if right == 0 and i == ')':
+                left += 1
+            else:
+                right += 1 if i == '(' else -1
+
+        return left + right
