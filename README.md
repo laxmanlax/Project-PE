@@ -87,12 +87,18 @@ This repository contains resources to help prepare for technical interviews and 
 - Design Google Search
 - Caching and load balancing components
 - Remote server troubleshooting (TCP/IP stack, `vmstat`, `iostat`, `strace`)
-- N-to-M data replication
-- File Storage System (e.g., Dropbox, Google Drive)
+- Resource replication from N sources to M sinks
+- Content publishing platform with privacy restrictions
+- File storage system (e.g., Dropbox, Google Drive)
 - Recommendation service (e.g., celebrity recommendations)
 - Social platform designs (Twitter, Instagram)
+- Instagram client-side design
+- Keyword search service in Facebook posts
 - Contest system (e.g., HackerRank)
 - Type-ahead feature design
+- Scheduling service with SQL approach (table schemas, composite keys, concurrency)
+- Uber system design
+- Music provider analytics service (e.g., top 10 songs per user)
 
 ## Linux Systems and Internals
 
@@ -103,6 +109,20 @@ _(Add content for Linux internals here)_
 - Debugging network issues (latency, packet loss, ICMP)
 - Tools: `strace`, `lsof`, `/proc` insights
 - Virtual memory and demand paging
+
+## Behavioral
+
+- Work experience, past projects, and standard “tell me about a time” questions
+- Hypothetical scenario questions (e.g., leadership, conflict resolution, decision-making)
+- STAR format: Situation, Task, Action, Result
+- Sample prompts:
+  - Tell me about your current role and responsibilities
+  - Describe a project you’re proud of
+  - Recall a time you had to give difficult feedback and how you handled it
+  - What’s the most challenging problem you solved and what did you learn?
+  - Which work environment brings out your best performance?
+  - Share a decision from your past that significantly changed your path
+  - Which skills or topics are you actively improving and what steps are you taking?
 
 ---
 
